@@ -1,0 +1,125 @@
+/* Typography imported from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400');
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+p, a {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Стили для карточек */
+
+.breweries ul > li {
+  border: 1px solid #E2E2E2;
+  border-radius: .5rem;
+}
+
+.breweries figure {
+  max-height: 220px;
+  overflow: hidden;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  position: relative;
+  margin: 0;
+}
+
+.breweries figure > img {
+  width: 112%;
+}
+
+.breweries figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+}
+
+.breweries figure > figcaption > h3 {
+  color: white;
+  padding: .75rem;
+  font-size: 1.25rem;
+}
+
+.hero .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+  background-image: url(img/bg.jfif);
+  background-size: 100% auto;
+  background-position: center;
+  color: white;
+  
+}
+
+.breweries ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  grid-gap: 1rem;
+  color:gray;
+  font-size: 14px;
+  min-height: 380px;
+  
+}
+
+footer {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  height: 50px;
+  text-align: center;
+margin-top: 285px;
+  width: auto;
+
+}
+
+
+a {
+  margin-left: 10px;
+  color: white;
+  background-color: rgb(255, 186, 58);
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: 10px solid rgb(255, 186, 58);
+  text-decoration: none;
+  
+}
+
+p {
+  padding: 15px;
+
+}
+
+h1 {
+max-width: 1200px;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20%;
+}
+
+.blyab {
+  margin-top: 20%;
+}
+
+
+
+
+
+
+
+
+
